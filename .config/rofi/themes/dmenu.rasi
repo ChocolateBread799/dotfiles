@@ -1,0 +1,39 @@
+
+* {
+    background-color:      #1b1f27;
+    border-color:          #3f4859;
+    text-color:            #ffffff;
+    font:            "Sarasa Mono K Bold 11";
+}
+
+window {
+    anchor:     south;
+    location:   south;
+    width:     100%;
+    padding:    4px;
+    children:   [ horibox ];
+    border: 2px solid;
+}
+
+horibox {
+    orientation: horizontal;
+    children:   [ prompt, entry, listview ];
+}
+
+listview {
+    layout:     horizontal;
+    spacing:    10px;
+    lines:      100;
+}
+
+entry {
+    expand:     false;
+    width:      10em;
+}
+
+element {
+    padding: 2px 5px;
+}
+element selected {
+    color: #a8bbef;
+}

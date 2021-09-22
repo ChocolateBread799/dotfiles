@@ -1,0 +1,23 @@
+configuration {
+    bw: 							0;
+    location: 					    0;
+    padding: 						0;
+    fixed-num-lines: 				true;
+    show-icons: 					true;
+    sidebar-mode: 					true;
+    separator-style: 				"beam";
+    hide-scrollbar: 				true;
+    scroll-method: 					0;
+    window-format: 					"[{w}] ··· {c} ···   {t}";
+    click-to-exit: 					true;
+    show-match: 					false;
+    combi-hide-mode-prefix: 		false;
+    display-window: 				"Window";
+    display-windowcd: 				"Windowcd";
+    display-run: 					"Commands";
+    display-ssh: 					"Ssh";
+    display-drun: 					" start   ";
+    display-combi: 					"Combi";
+}
+
+@theme "/home/k/.config/rofi/themes/dmenu.rasi"
