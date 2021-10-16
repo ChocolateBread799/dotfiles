@@ -1,30 +1,17 @@
 # ✨**My Awesomewm Dotfile**✨
 
-_~~little suck~~_
+thanks for [javacafe01](https://github.com/JavaCafe01)
 
-### **Required**
-- **_~~[Awesomewm](https://awesomewm.org/)~~_**
-- [File Manager](https://wiki.archlinux.org/title/thunar)
-- [Discocss](https://github.com/mlvzk/discocss)
+# **Required**
 - [Rofi](https://github.com/davatorium/rofi)
-- [Kitty Term](https://sw.kovidgoyal.net/kitty/)
+- [wezterm](https://wezfurlong.org/wezterm/)
 - [Ibhagwan Forked Picom](https://github.com/ibhagwan/picom)
-- [Sarasa Gothic Mono](https://picaq.github.io/sarasa/)
+- [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono)
 
-### **Setup** _(may not work well)_
+# **Module**
 
-1. **install apps** _(in arch)_
- ```
- $ yay -S thunar awesome rofi kitty picom-ibhagwan-git ttf-sarasa-gothic
- ```
-2. **move files**
-```
-$ git clone https://github.com/ChocolateBread799/Awesomewm_Dots
-$ cd Awesomewm_Dots
-$ cp -r .config/* ~/.config/
-```
+- [Bling](https://blingcorp.github.io/bling/)
 
-## **[StartPage](https://chocolatebread799.github.io/Startpage/)**
+## **Screenshot**
+![screenshot](./img/macindows.png)
 
-### **Screenshot**
-![ex_screenshot](workspace.png)
