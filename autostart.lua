@@ -10,10 +10,6 @@ local function run_once(cmd)
                              findme, cmd), false)
 end
 
--- xrandr
-
-run_once("xrandr --output DP-1 --mode 1920x1080 --rate 164.97 &")
-
 -- picom
 
 run_once("picom --experimental-backends --config " ..
