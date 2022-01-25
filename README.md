@@ -11,4 +11,4 @@
 - [Bling](https://blingcorp.github.io/bling/)
 
 ## Screenshot
-![screenshot1](./likedoodle.png)
+![screenshot1](./likedoodle.jpg)
