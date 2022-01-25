@@ -1,0 +1,36 @@
+
+* {
+    background-color:      #ffffff;
+    text-color:            #000000;
+    font:            "MADE Outer Sans Medium 14";
+}
+
+window {
+    anchor:     south;
+    location:   south;
+    width:     100%;
+    padding:    10px;
+    children:   [ horibox ];
+        border: 2px 0 0 0;
+    border-color: #000000;
+}
+
+horibox {
+    orientation: horizontal;
+    children:   [ prompt, entry, listview ];
+}
+
+listview {
+    layout:     horizontal;
+    spacing:    10px;
+    lines:      100;
+}
+
+entry {
+    expand:     false;
+    width:      10em;
+}
+
+element {
+    padding: 2px 5px;
+}
