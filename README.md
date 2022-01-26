@@ -8,8 +8,8 @@
 
 ## Not Required
 
--[Spotify Theme](https://github.com/ChocolateBread799/outlineddribbblish)
--[startpage](https://github.com/ChocolateBread799/startpage)
+- [Spotify Theme](https://github.com/ChocolateBread799/outlineddribbblish)
+- [startpage](https://github.com/ChocolateBread799/startpage)
 
 ## Module
 
