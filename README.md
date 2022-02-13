@@ -1,5 +1,3 @@
-<a href="https://awesomewm.org/"><img alt="AwesomeWM Logo" height="160" align = "center" src="https://upload.wikimedia.org/wikipedia/commons/0/07/Awesome_logo.svg"></a>
-
 <h1 align="center" style="font-weight: bold"> AwesomeWM dotfiles </h1>
 
 <div align="center">
