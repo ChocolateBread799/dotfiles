@@ -38,3 +38,6 @@
 ## Screenshot
 
 ![screenshot1](./likedoodle.jpg)
+
+## Special Thanks
+[JavaCafe01's Dotflies](https://github.com/JavaCafe01/dotfiles)
