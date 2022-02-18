@@ -23,7 +23,7 @@
 ## Setup
 
 ```
-> yay -S awesome-git platerctl-git picom-ibhagwan-git
+> yay -S awesome-git platerctl-git picom-ibhagwan-git pavucontrol
 
 > git clone https://github.com/ChocolateBread799/dotfiles
 
