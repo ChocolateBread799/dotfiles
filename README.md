@@ -39,5 +39,13 @@
 
 ![screenshot1](./likedoodle.jpg)
 
+## Rices
+
+- [first rice](https://github.com/ChocolateBread799/dotfiles/tree/1e9beb02c420bdff45d0f5e2a774e469d11c3885)
+- [macindows](https://github.com/ChocolateBread799/dotfiles/tree/099a9a63fa4d3a105ed1e3254d31ca3264c413d7)
+- [sweetness](https://github.com/ChocolateBread799/dotfiles/tree/a5cffc6580dc99e48c25958d51546642f0fe32d8)
+- [another rice is comming..](https://www.youtube.com/watch?v=Tx5nF3Gay0A&ab_channel=ispoal)
+
 ## Special Thanks
 [JavaCafe01's Dotflies](https://github.com/JavaCafe01/dotfiles)
+[Elenapan's Dotfiles](https://github.com/elenapan/dotfiles)
