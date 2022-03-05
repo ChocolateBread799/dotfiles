@@ -23,7 +23,7 @@
 ## Setup
 
 ```
-> yay -S awesome-git platerctl-git picom-ibhagwan-git pavucontrol pulseaudio-ctl
+> yay -S awesome-git playerctl-git picom-jonaburg-git pavucontrol pulseaudio-ctl
 
 > git clone https://github.com/ChocolateBread799/dotfiles
 
