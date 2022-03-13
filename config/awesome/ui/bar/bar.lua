@@ -590,59 +590,6 @@ awful.screen.connect_for_each_screen(function(s)
     }
     sidebar_icon:buttons(gears.table.join(awful.button({ }, 1, function() sidebar_toggle() end)))
 
-    -- Search
-
-    local search_text = wibox.widget {
-        font = beautiful.font,
-        markup = helpers.colorize_text("", beautiful.fg_focus),
-        align = "center",
-        valign = "center",
-        visible = true,
-        widget = wibox.widget.textbox()
-    }
-    
-    local search = wibox.widget{
-        -- search_bar,
-        {
-            {
-                {
-                    {
-                        image = beautiful.search_bar_icon,
-                        widget = wibox.widget.imagebox
-                    },
-                    margins = dpi(15),
-                    left = dpi(0),
-                    widget = wibox.container.margin
-                },
-                {
-                    search_text,
-                    bottom = dpi(2),
-                    widget = wibox.container.margin
-                },
-                layout = wibox.layout.fixed.horizontal
-            },
-            left = dpi(15),
-            widget = wibox.container.margin
-        },
-        forced_height = dpi(50),
-        forced_width = dpi(520),
-        shape = helpers.rrect(dpi(15)),
-        bg = beautiful.search_bar,
-        widget = wibox.container.background()
-        -- layout = wibox.layout.stack
-    }
-
-    function sidebar_activate_prompt(action)
-        helpers.prompt(action, search_text, prompt, function()
-        end)
-    end
-
-    search:buttons(gears.table.join(
-        awful.button({ }, 1, function ()
-            sidebar_activate_prompt("web_search")
-        end)
-    ))
-
     -- Wrap
 
     local wrap_widget = function(w)
@@ -814,9 +761,6 @@ awful.screen.connect_for_each_screen(function(s)
         duration = 0.3,
         easing = rubato.bouncy,
         subscribed = function(pos)
-            if s.mywidebox.x == 0 then
-                s.mywidebox.x = dpi(30)
-            end
             s.mywidebox.x = pos - dpi(300)
         end
     }
@@ -824,9 +768,8 @@ awful.screen.connect_for_each_screen(function(s)
     logo:connect_signal("button::press", function()
         s.mywibox.visible = false
         s.mywidebox.visible = true
-        wibox_timed.target = 330
+        wibox_timed.target = dpi(330)
         s.mywidebox.x = dpi(30)
-        s.mywibox.x = dpi(30)
     end)
 
     local widebox_timed = rubato.timed {
@@ -841,8 +784,7 @@ awful.screen.connect_for_each_screen(function(s)
     logo_wide:connect_signal("button::press", function()
         s.mywidebox.visible = false
         s.mywibox.visible = true
-        widebox_timed.target = 125
-        s.mywidebox.x = dpi(330)
+        widebox_timed.target = dpi(125)
         s.mywibox.x = dpi(30)
     end)
 
@@ -855,5 +797,4 @@ awful.screen.connect_for_each_screen(function(s)
     }
 
     s.mywibox.x = dpi(30)
-    s.mywidebox.x = dpi(30)
 end)

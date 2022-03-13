@@ -27,24 +27,24 @@ theme.useless_gap = 20
 
 theme.bg = "#FFFFFF"
 theme.bg_sidebar = "#FFFFFF"
-theme.bg_selected = "#EFF1FA"
+theme.bg_selected = "#F7F8FC"
 theme.bg_widget = "#F7F8FA"
 
 theme.border_color = "#ECECEC"
 
 theme.fg_normal = "#b0b2bf"
-theme.fg_focus      = "#573BFF"
+theme.fg_focus      = "#6192FB"
 theme.fg_urgent     = "#b0b2bf"
 theme.fg_minimize   = "#b0b2bf"
 theme.fg_sidebar    = "#2A3256"
 
-theme.taglist_bg_focus = "#EDEFFD"
+theme.taglist_bg_focus = "#F7F8FC"
 
 theme.active = "#6A6E78"
 
 theme.icon_bg = "#b0b2bf"
 theme.icon_normal = "#b0b2bf"
-theme.icon_selected = "#573BFF"
+theme.icon_selected = "#6192FB"
 
 theme.red = "#db7272"
 
@@ -58,7 +58,7 @@ theme.search_bar = "#F7F8FA"
 
 theme.dark_slider_bg = "#E6E9EB"
 
-theme.arc_bg = "#e6e9f0"
+theme.arc_bg = "#D8E4FA"
 theme.arc_color = "#6192FB"
 
 -- radius

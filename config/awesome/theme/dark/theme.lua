@@ -18,12 +18,13 @@ theme.dir = string.format('%s/.config/awesome/theme', os.getenv('HOME'))
 
 -- theme.wallpaper = gfs.get_configuration_dir() .. "wallpapers/118.png"
 
-gears.wallpaper.set({
-  type = "linear",
-  from = { 0, 0, 0 },
-  to = { screen_height, screen_width, 1 },
-  stops = { { 0, "#D36CB0" }, { 1, "#7145DE" } }
-}) --"#404958"
+gears.wallpaper.set("#5c647d") 
+-- {
+--   type = "linear",
+--   from = { 0, 0, 0 },
+--   to = { screen_height, screen_width, 1 },
+--   stops = { { 0, "#D36CB0" }, { 1, "#7145DE" } }
+-- }
 
 theme.useless_gap = 20
 
