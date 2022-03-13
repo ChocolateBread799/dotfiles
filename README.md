@@ -75,7 +75,7 @@ by [javacafe01](https://github.com/JavaCafe01)
 
 5. install my dotfiles
     ```shell
-    git clone https://github.com/ChocolateBread799/dotfiles
+    git clone --recurse-submodules https://github.com/ChocolateBread799/dotfiles
     cd dotfiles
     mv config/* ~/.config/
     ```
