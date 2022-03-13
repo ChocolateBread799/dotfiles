@@ -1,0 +1,41 @@
+
+* {
+    background-color:      #161719;
+    text-color:            #FFFFFF;
+    font: "SF Pro Display 14";
+
+}
+
+window {
+    anchor:     center;
+    location:   center;
+    width:     15%;
+    padding:    15px;
+    border-radius: 10px;
+    children:   [ horibox ];
+}
+
+prompt {
+    font: "SFMono Nerd Font 14";
+}
+
+horibox {
+    orientation: horizontal;
+    children:   [ prompt, entry, listview ];
+
+}
+
+listview {
+    layout:     horizontal;
+    spacing:    10px;
+    lines:      0;
+}
+
+entry {
+    expand:     false;
+    width:      10em;
+}
+
+element {
+    padding: 2px 5px;
+}

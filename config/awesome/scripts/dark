@@ -1,0 +1,15 @@
+#!/bin/sh
+
+# Color
+sed -i "31s/.*/theme = themes[2]/g" ~/.config/awesome/rc.lua
+
+# Gtk
+sed -i "2s/.*/gtk-icon-theme-name=Mkos-Big-Sur-Night/g" ~/.config/gtk-3.0/settings.ini
+sed -i "4s/.*/gtk-theme-name=WhiteSur-dark/g" ~/.config/gtk-3.0/settings.ini
+
+# Picom
+sed -i "7s/.*/shadow-opacity = 0.4;/g" ~/.config/awesome/config/picom.conf
+
+# Spotify
+spicetify config color_scheme dark
+spicetify update
