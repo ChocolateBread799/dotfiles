@@ -123,7 +123,7 @@ _superkey is window key_
 - [first rice](https://github.com/ChocolateBread799/dotfiles/tree/1e9beb02c420bdff45d0f5e2a774e469d11c3885)
 - [macindows](https://github.com/ChocolateBread799/dotfiles/tree/099a9a63fa4d3a105ed1e3254d31ca3264c413d7)
 - [sweetness](https://github.com/ChocolateBread799/dotfiles/tree/a5cffc6580dc99e48c25958d51546642f0fe32d8)
-- [doodle](https://github.com/ChocolateBread799/dotfiles/tree/a5cffc6580dc99e48c25958d51546642f0fe32d8)
+- [doodle](https://github.com/ChocolateBread799/dotfiles/commit/5017bcf594ca02519a53e33e9ca76e6d5677034b)
 - [another rice is coming..](https://www.youtube.com/watch?v=Tx5nF3Gay0A&ab_channel=ispoal)
 
 ## Special Thanks
