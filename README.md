@@ -127,5 +127,6 @@ _superkey is window key_
 - [another rice is coming..](https://www.youtube.com/watch?v=Tx5nF3Gay0A&ab_channel=ispoal)
 
 ## Special Thanks
-[JavaCafe01's Dotflies](https://github.com/JavaCafe01/dotfiles)
-[Elenapan's Dotfiles](https://github.com/elenapan/dotfiles)
+- [JavaCafe01's Dotflies](https://github.com/JavaCafe01/dotfiles)
+- [Elenapan's Dotfiles](https://github.com/elenapan/dotfiles)
+- [Rayhan's](https://github.com/rxyhn) [Dotfiles](https://github.com/rxyhn/AwesomeWM-Dotfiles)
